@@ -1,4 +1,4 @@
-package com.example.mybatisplusdemo.POJO;
+package com.example.mybatisplusdemo.pojo;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.AllArgsConstructor;

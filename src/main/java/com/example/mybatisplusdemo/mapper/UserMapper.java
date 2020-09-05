@@ -1,7 +1,7 @@
 package com.example.mybatisplusdemo.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.mybatisplusdemo.POJO.User;
+import com.example.mybatisplusdemo.pojo.User;
 import org.springframework.stereotype.Repository;
 
 /**

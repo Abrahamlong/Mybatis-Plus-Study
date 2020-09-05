@@ -1,13 +1,12 @@
 package com.example.mybatisplusdemo;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.mybatisplusdemo.POJO.User;
+import com.example.mybatisplusdemo.pojo.User;
 import com.example.mybatisplusdemo.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import javax.swing.plaf.PopupMenuUI;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
