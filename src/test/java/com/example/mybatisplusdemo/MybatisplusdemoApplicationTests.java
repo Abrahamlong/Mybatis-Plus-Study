@@ -19,8 +19,10 @@ class MybatisplusdemoApplicationTests {
     @Autowired
     private UserMapper userMapper;
 
+    // 测试查询全部用户
     @Test
     void contextLoads() {
+        // 该参数是一个wrapper对象，条件构造器，若为null则查询全部用户
         List<User> user = userMapper.selectList(null);
         user.forEach(System.out::println);
     }

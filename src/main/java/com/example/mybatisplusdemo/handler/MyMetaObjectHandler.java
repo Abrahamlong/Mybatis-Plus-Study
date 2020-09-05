@@ -14,6 +14,9 @@ import java.util.Date;
  */
 @Slf4j
 @Component  //一定不要忘记把处理器加到IOC容器中
+/**
+ * 该类主要处理时间自动填充的策略问题
+ */
 public class MyMetaObjectHandler implements MetaObjectHandler {
 
     //插入时的填充策略
